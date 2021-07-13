@@ -26,7 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME="violet"
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cherish_violet
+PRODUCT_NAME := revengeos_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
