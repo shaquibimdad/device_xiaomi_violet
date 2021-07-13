@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_violet.mk
+    $(LOCAL_DIR)/revengeos_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_violet-userdebug \
-    cherish_violet-user \
-    cherish_violet-eng
+    revengeos_violet-userdebug \
+    revengeos_violet-user \
+    revengeos_violet-eng
