@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/revengeos/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-REVENGEOS_BUILDTYPE := OFFICIAL
+REVENGEOS_BUILDTYPE := UNOFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Build Description
@@ -24,6 +24,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME="violet" \
         PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210705.001 7380771 release-keys"
 	PRODUCT_NAME="violet"
+
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_violet
