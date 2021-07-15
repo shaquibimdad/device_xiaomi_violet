@@ -1,8 +1,20 @@
 [
   {
-    "remote": "karthik558",
-    "repository": "MsM-4.14-SmoothAF",
+    "remote": "shaquibimdad",
+    "repository": "device_xiaomi_violet",
+    "target_path": "device/xiaomi/violet"
+    "branch": "R"
+  },
+  {
+    "remote": "shaquibimdad",
+    "repository": "kernel_xiaomi_violet",
     "target_path": "kernel/xiaomi/violet"
-    "branch": "eleven"
+    "branch": "R"
+  },
+  {
+    "remote": "shaquibimdad",
+    "repository": "vendor_xiaomi_violet",
+    "target_path": "vendor/xiaomi/violet"
+    "branch": "R"
   },
 ]
